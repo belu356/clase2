@@ -36,15 +36,16 @@ p{
 
 .formulario{
 		        width: 25%;
+		        margin-left: 40px;
 }
 
 .barracont{
 		
 		    color: black;
-    	font-size: medium;
-    	text-align: center;
-    	width: 271px;
-    	margin-top: 0px;
+    		font-size: medium;
+    		text-align: center;
+    		width: 271px;
+    		margin-top: 0px;
 
 
 	}
@@ -68,4 +69,10 @@ p{
     	width: 770px;
     	text-align: center;
 }
+.formulario_boton{
+	margin-left: 40px;
 
+}
+.frm{
+	margin-top: 40px;
+}
