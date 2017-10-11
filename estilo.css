@@ -1,9 +1,7 @@
-img{
-    position: center;
-}
+
 
 li{
-    color: blue;
+    color: black;
     font-family: sans-serif;
     font-size: large;
     padding: 90px;
@@ -11,22 +9,25 @@ li{
 
 p{
 	width: 70%;
+
 }
 
 
 .barra{
-	background-color: #EACAC3;
-	width: 67%;
+	background-color:#B3B8EC;
+	width: 60%;
+	color: black;
 }
 
 .nosotros{
-		background-color: #EACAC3;
-		width: 67%;
-		color: blue;
-		text-align: center;
-    	font-size: xx-large;
-
-}
+		    
+    		width: 40%;
+    		height: 35px;
+    		margin-left: 128px;
+    		color: black;
+    		text-align: center;
+    		font-size: xx-large;
+		}
 
 .cajatxt{
 		    height: 114px;
@@ -34,15 +35,27 @@ p{
 }
 
 .formulario{
-		    margin: 29px;
-    		margin-top: 107px;
+		    margin: 19px;
+    		margin-top: 12px;
 }
 
 .barracont{
-		background-color:#EACAC3;
-		color: blue;
+		
+		color: black;
 		font-size: medium;
 		text-align: center;
+		width: 207px;
+		margin-top: 29px;
 
 
 	}
+
+img{
+	width: 795px;
+    height: 167px;
+    margin-left: 41px;
+}
+
+body{
+	background-color:#A7A8AE;
+}
