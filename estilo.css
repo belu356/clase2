@@ -35,27 +35,37 @@ p{
 }
 
 .formulario{
-		    margin: 19px;
-    		margin-top: 12px;
+		        width: 25%;
 }
 
 .barracont{
 		
-		color: black;
-		font-size: medium;
-		text-align: center;
-		width: 207px;
-		margin-top: 29px;
+		    color: black;
+    	font-size: medium;
+    	text-align: center;
+    	width: 271px;
+    	margin-top: 0px;
 
 
 	}
 
-img{
-	width: 795px;
-    height: 167px;
-    margin-left: 41px;
+.animacion{
+	    width: 693px;
+    	height: 124px;
+    	margin-top: 28px;
+    	margin-left: 61px;
 }
 
-body{
-	background-color:#A7A8AE;
+.texto1{
+	    text-align: -webkit-right;
+	        width: 61%;
 }
+
+.texto2{
+	    margin-top: 32px;
+    	margin-bottom: 1rem;
+    	margin-left: 34px;
+    	width: 770px;
+    	text-align: center;
+}
+
