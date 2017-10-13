@@ -11,8 +11,7 @@
     }
 });
 */
-
-
+const elementoFormulario = document.querySelector ('form');
 
 const Nombre =
 document.querySelector('input[name="Nombre"]');
