@@ -32,21 +32,34 @@
         <body>
 
 	       <div class="barracont">Envianos tus comentarios</div>
+
+
 	           
-                <form class="frm">
+                <form class="frm" onsubmit= "return onsubmit()">
+
+                      <div class="form-group formulario">
+                        <label for="exampleInputNombre">Nombre</label>
+                        <input name="Nombre" type="nombre" class="form-control" id="exampleInputNombre" placeholder="Nombre">
+                    </div>
+                    
+                    <div class="form-group formulario">
+                        <label for="exampleInputApellido">Apellido</label>
+                        <input name="Apellido" type="apellido" class="form-control" id="exampleInputApellido" placeholder="Apellido">
+                    </div>
                     
                     <div class="form-group formulario">
                         <label for="exampleInputEmail1">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresar email">
+                        <input name="Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresar email"><br>
                         
-                    </div>
-                    <div class="form-group formulario">
-                        <label for="exampleInputPassword1">Contraseña</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingresar contraseña">
+                    <div class="form-group ">
+                        <label for="exampleInputComent">Comentario</label>
+                        <textarea name="Coment" class="form-control" id="exampleIdComent" placeholder="Escribinos tu comentario"></textarea> 
+                        
                     </div>
                    
                         <button type="submit" class="btn btn-primary formulario_boton">Enviar</button>
                 </form>
+                <script src="archivo.js"></script>
 
         </body> 
 </html>
